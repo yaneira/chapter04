@@ -1,14 +1,10 @@
-<!DOCTYPE html>
+
 /*
 	Student Name: Lizeth Hernandez
 	File Name: styles.css
 	Date: March 5 2022
 */
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-</head>
-<br>
+
 
 /*CSS Reset*/
 body, header, nav, main,footer, img, h1,h3{
@@ -16,7 +12,7 @@ margin: 0 ;
 padding: 0 ;
 border: 0 ;
 }
-<br>
+
 /* Style Rule for body and image*/
 body{background-color: #e3eaf8
 }
@@ -24,78 +20,78 @@ img{
   max-width:100%;
   display:block;
 }
-<br>
+
 /*Style Rule for header content */
-header h1{
-  text-align: center;
-  font-size: 3em;
-  font-family: georgia, times, serif;
-  padding: 3%;
-  color: #101a2d;
+header{
+	text-align: center;
+	font-size: 3em;
+	font-family: georgia, times, serif;
+	padding: 3%;
+	color: #101a2d;
 }
-<br>
+
 /*style Rule for navegation area*/
 nav{
   background-color: #1d396d;
 }
-<br>
+
 nav ul{
   list-style: none;
   margin: 0;
   text-align: center;
 }
-<br>
+
 nav li{
   display: inline-block;
   font-size: 1.5em;
   font-family: Verdana,Arial, sans-serif;
   font-weight: bold;
 }
-<br>
+
 nav li a{
   display: block;
-  font color:#e3eaf8;
+  font: #e3eaf8;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 2em;
   padding-right: 2em;
   text-decoration:none;
 }
-<br>
+
 /* style Rules for main content*/
 main{
   padding: 2%;
   font-family: Geneva, arial, sans-serif;
   overflow: auto;
 }
-<br>
+
 main p{
   font-size: 1.25em;
 }
-<br>
+
 main h3{
   padding-top: 2%;
   font-size: 2em;
 }
-<br>
+
 id-image{
   width: 45%;
   float: left;
   padding: 1%;
 }
-<br>
+
 id-group{
   width: 45%;
   float: right;
 }
-<br>
+
 class-external{
   font:#1d396d;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
 }
-<br>
+
 /*Style Rules for footer content*/
 footer{
   text-align: center;
@@ -107,7 +103,7 @@ footer{
   padding-right: 0%;
   padding-left: 0%;
 }
-<br>
+
 footer-a{
   font:#e3eaf8;
   text-decoration: none;
