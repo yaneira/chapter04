@@ -1,5 +1,22 @@
-<!--
+/*
 	Student Name: Lizeth Hernandez
 	File Name: styles.css
 	Date: March 5 2022
--->
+*/
+<br>
+
+/*CSS Reset*/
+body, header, nav, main,footer, img, h1,h3{
+margin: 0 ;
+padding: 0 ;
+border: 0 ;
+}
+<br>
+/* Style Rule for body and image*/
+body{background-color: #e3eaf8
+}
+img{
+  max-width:100%;
+  display:block;
+}
+<br>
