@@ -1,8 +1,13 @@
+<!DOCTYPE html>
 /*
 	Student Name: Lizeth Hernandez
 	File Name: styles.css
 	Date: March 5 2022
 */
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+</head>
 <br>
 
 /*CSS Reset*/
@@ -102,8 +107,9 @@ footer{
   padding-right: 0%;
   padding-left: 0%;
 }
-<br
+<br>
 footer-a{
   font:#e3eaf8;
   text-decoration: none;
 }
+</html>
