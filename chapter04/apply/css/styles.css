@@ -50,7 +50,7 @@ nav li{
 
 nav li a{
   display: block;
-  font: #e3eaf8;
+  color: #e3eaf8;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 2em;
@@ -74,19 +74,18 @@ main h3{
   font-size: 2em;
 }
 
-id-image{
+#image{
   width: 45%;
   float: left;
   padding: 1%;
 }
 
-id-group{
+#group{
   width: 45%;
   float: right;
 }
-
-class-external{
-  font:#1d396d;
+#external{
+  color:#1d396d;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
@@ -97,7 +96,7 @@ footer{
   text-align: center;
   font-size: 0.85em;
   background-color: #1d396d;
-  font:#e3eaf8;
+  color:#e3eaf8;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-right: 0%;
@@ -105,7 +104,7 @@ footer{
 }
 
 footer-a{
-  font:#e3eaf8;
+  color:#e3eaf8;
   text-decoration: none;
 }
 </html>

@@ -1,34 +1,62 @@
+/*
+Name: Lizeth Hernandez
+Date: March 5 2022
+File Name: style.css*/
+
 #css1, #css2, #css3 {
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 0 1%;
-}footer {
+}
+/*style rule for footer*/
+footer {
     text-align: center;
     font-size: 0.85em;
     color: #47476b;
     padding: 1% 0;
     border-top: 3px solid #47476b;
-}body {
+    float:left;
+}
+/*style rule for body*/
+body {
     padding 2%;
     background-color: #d1d1e0;
-} main {
+}
+/*style rule for main*/
+main {
     padding: 2%;
     font-family: Geneva, Arial, sans-serif;
-} header h1 {
+    overflow: auto;
+}
+/*style rule for header h1*/
+header h1 {
+  text-align: center;
     font-size: 3em;
     font-family: Georgia, Times, serif;
     padding: 3%;
     color: #47476b;
-} nav {
+}
+/*style rule for nav*/
+nav {
     background-color: #47476b;
-} nav ul { margin: 0;} nav li {
-    display: block;
-    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
-} nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
-
+}
+/*style rule for nav lu*/
+nav ul { margin: 0;
+}
+/*style rule for nav li*/
+ nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+/*style rule for nav li a*/
+nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
+/*style rule for main p*/
 main p {
     font-size: 1.25em;
 }
+/*style rule for main h3*/
 main h3 {
     padding-top: 2%;
     font-size: 2em;
