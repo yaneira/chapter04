@@ -84,7 +84,7 @@ main ul{
 }
 
 /*style rule for footer content*/
-.footer{
+footer{
   text-align: center;
   font-size: 0.85em;
   background-color: #2a1f14;
@@ -95,7 +95,7 @@ main ul{
   padding-right: 0%;
 }
 
-footer{
+.footer{
   color: #f3e6d8;
   text-decoration: none;
 }
